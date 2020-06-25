@@ -33,6 +33,6 @@ describe ("strict button check mark"),function(){
         it("should have a check mark")
         $(strictbutton.click)
         expect(checkmark).toBe(checked)
-})
-}
-}
+});
+};
+};
