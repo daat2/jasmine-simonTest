@@ -1,7 +1,14 @@
-describe("Calculator", function() {
-    describe("Addition function", function() {
-        it("should return 42", function() {
-            expect(addition(20, 22)).toBe(42);
+describe("power button", function(){
+    describe("onoffSwitch text", function(){
+        beforeEach(function(){
+            text = off;
+            let onoffSwitch =false;
         });
+it("should return text = off",function(){
+    expect(text).toBe(off);
+
+})
     })
+
+
 })

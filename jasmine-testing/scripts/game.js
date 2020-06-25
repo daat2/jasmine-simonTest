@@ -1,3 +1,3 @@
-function addition() {
-    return 42;
+function onoffSwitch(ON,OFF){
+return(OFF)
 }
