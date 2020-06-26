@@ -17,7 +17,7 @@ describe ("start button test"),function(){
 describe("click on start buttton"),function(){
     beforeEach(function(){
         power= true;
-        it("it should play a sound")
+        it(" should play a sound")
         $(startbutton.click)()
         expect(clicksound).toBe(sound)
         
